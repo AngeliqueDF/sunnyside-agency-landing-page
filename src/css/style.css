@@ -324,16 +324,6 @@ a.contact-cta-yellow {
 }
 /* END GALLERY COMPONENT */
 
-.attribution {
-	font-size: 11px;
-	text-align: center;
-	position: sticky;
-	bottom: 1rem;
-}
-.attribution a {
-	color: hsl(228, 45%, 44%);
-}
-
 footer {
 	background-color: var(--dark-moderate-cyan-light);
 	color: var(--dark-moderate-cyan);
@@ -359,4 +349,22 @@ footer {
 	margin: 0 auto 6rem;
 }
 
+.social-link img {
+	width: 1rem;
+	height: 1rem;
+	margin: auto 0.75rem;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 1rem;
+	z-index: 3;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
 /* END FOOTER */
