@@ -148,6 +148,7 @@ button {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	width: 100%;
+	background-color: #3dbeff;
 }
 
 .hero h2 {
@@ -608,6 +609,17 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
+	header {
+		font-size: 2rem;
+	}
+
+	header .logo {
+		width: 12rem;
+		margin: unset;
+		padding: unset;
+		display: block;
+	}
+
 	.hero {
 		min-height: 80vh;
 	}
