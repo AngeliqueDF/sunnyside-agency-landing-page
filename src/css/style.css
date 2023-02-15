@@ -179,18 +179,18 @@ button {
 /* END HERO */
 
 /* FEATURES COMPONENTS */
-.single-feature {
+.feature-single {
 	display: flex;
 	flex-direction: column;
 }
 
-.single-feature h3 {
+.feature-single h3 {
 	margin-bottom: 1.5rem;
 	font-size: 1.8rem;
 	color: var(--very-dark-desaturated-blue);
 }
 
-.single-feature p {
+.feature-single p {
 	line-height: 1.5rem;
 	margin-bottom: 1.5rem;
 }
