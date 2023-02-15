@@ -142,8 +142,9 @@ button {
 
 /* HERO */
 .hero {
-	background-image: url("./../images/desktop/image-header.jpg");
+	background-image: url("./../images/mobile/image-header.jpg");
 	min-height: 30rem;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	width: 100%;
