@@ -92,6 +92,7 @@ button {
 	bottom: 0;
 	background-color: white;
 	min-height: fit-content;
+	height: fit-content; /* needed for firefox */
 	width: 80vw;
 	width: calc(100% - 4rem);
 	padding: 2rem 0rem;
