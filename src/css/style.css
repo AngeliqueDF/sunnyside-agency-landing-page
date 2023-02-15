@@ -123,8 +123,7 @@ button {
 }
 
 /* CONTACT BUTTON */
-.contact-cta,
-a.contact-cta-yellow {
+.contact-cta {
 	font-size: 4.5vw;
 	margin: 1rem 0rem 0rem;
 	padding: 1rem 1.25rem;
@@ -137,7 +136,7 @@ a.contact-cta-yellow {
 	width: unset;
 }
 
-a.contact-cta-yellow {
+.contact-cta {
 	background-color: var(--yellow);
 }
 /* END CONTACT BUTTON */
