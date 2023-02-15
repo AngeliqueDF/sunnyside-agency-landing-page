@@ -182,6 +182,7 @@ button {
 .feature-single {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .feature-single h3 {
@@ -198,7 +199,6 @@ button {
 .copy {
 	color: var(--dark-grayish-blue);
 	padding: 7%;
-	text-align: center;
 }
 
 /* LEARN MORE COMPONENTS */
