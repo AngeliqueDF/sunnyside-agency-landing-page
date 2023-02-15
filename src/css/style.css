@@ -566,3 +566,172 @@ footer {
 	}
 	/* END FOOTER */
 }
+
+@media screen and (min-width: 1024px) {
+	.feature-single .copy {
+		padding: 6rem;
+	}
+
+	.feature-single h3 {
+		font-size: 1.8rem;
+	}
+
+	.feature-single p {
+		font-size: 0.8rem;
+	}
+	.single-service {
+		padding: 3rem 10rem 2rem;
+	}
+	.service-copy {
+		font-size: 1rem;
+		line-height: 1.4rem;
+	}
+
+	.feature-single .copy {
+		padding: 8rem 5.4rem 6rem;
+	}
+
+	.service-copy {
+		line-height: 1.5rem;
+	}
+
+	.client-testimonial-single {
+		font-size: 0.9rem;
+	}
+
+	.sitemap {
+		font-size: 1.5rem;
+		width: 33%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.hero {
+		min-height: 80vh;
+	}
+
+	.hero h2 {
+		font-size: 4rem;
+		padding-top: 22vh;
+	}
+
+	.feature-single h3 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	.feature-single p {
+		font-size: 1.35rem;
+		line-height: 2rem;
+	}
+
+	.learn-more-feature-link {
+		font-size: 1rem;
+	}
+
+	.service-title {
+		font-size: 1.85rem;
+		margin-bottom: 2rem;
+	}
+
+	.service-copy {
+		font-size: 1.2rem;
+		line-height: 2.1rem;
+	}
+
+	.client-testimonial-single {
+		font-size: 1.35rem;
+	}
+
+	.client-testimonial-text {
+		line-height: 2rem;
+		margin-bottom: 3rem;
+	}
+}
+
+@media screen and (min-width: 2560px) {
+	.hero {
+		min-height: 80vh;
+	}
+
+	.hero h2 {
+		font-size: 8rem;
+		padding-top: 22vh;
+	}
+
+	.feature-single .copy {
+		padding: 16rem 10.8rem 6rem;
+	}
+
+	.feature-single h3 {
+		font-size: 6rem;
+		line-height: 6rem;
+		margin-bottom: 3rem;
+	}
+
+	.feature-single p {
+		font-size: 2.3rem;
+		line-height: 4rem;
+	}
+
+	.learn-more-feature-link {
+		font-size: 2rem;
+	}
+
+	.single-service {
+		padding: 30rem 18rem 5rem;
+	}
+
+	.service-title {
+		font-size: 3rem;
+		margin-bottom: 4rem;
+	}
+
+	.service-copy {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	.client-testimonials {
+		padding: 12rem;
+	}
+
+	.client-testimonials h2 {
+		font-size: 2rem;
+	}
+
+	.client-testimonial-single {
+		font-size: 1.35rem;
+	}
+
+	.client-testimonial-text {
+		font-size: 1.95rem;
+		line-height: 3rem;
+		margin-bottom: 3rem;
+		padding: 0 2.75rem;
+	}
+
+	.client-testimonial-author {
+		margin-bottom: 1rem;
+	}
+
+	.client-testimonial-author-role {
+		font-size: 1rem;
+	}
+
+	.logo {
+		margin-bottom: 4rem;
+	}
+
+	.sitemap {
+		font-size: 3rem;
+		width: 33%;
+		margin: 0 auto 9rem;
+	}
+
+	.social-link img {
+		width: 3rem;
+		height: 3rem;
+		margin: auto 2rem;
+	}
+}
