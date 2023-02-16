@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "Barlow";
 	src: url("./../fonts/Barlow/Barlow-SemiBold.ttf");
-	font-display: font-swap;
+	font-display: swap;
 }
 @font-face {
 	font-family: "Fraunces";
 	src: url("./../fonts/Fraunces/static/Fraunces_9pt_Soft/Fraunces_9pt_Soft-Black.ttf");
-	font-display: font-swap;
+	font-display: swap;
 }
 
 :root {
