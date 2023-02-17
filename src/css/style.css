@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "Barlow";
 	src: url("./../fonts/Barlow/Barlow-SemiBold.ttf");
-	font-display: font-swap;
+	font-display: swap;
 }
 @font-face {
 	font-family: "Fraunces";
 	src: url("./../fonts/Fraunces/static/Fraunces_9pt_Soft/Fraunces_9pt_Soft-Black.ttf");
-	font-display: font-swap;
+	font-display: swap;
 }
 
 :root {
@@ -610,14 +610,18 @@ footer {
 
 @media screen and (min-width: 1440px) {
 	header {
-		font-size: 2rem;
+		font-size: 1.2rem;
 	}
 
 	header .logo {
-		width: 12rem;
+		width: 14rem;
 		margin: unset;
 		padding: unset;
 		display: block;
+	}
+
+	.header-navigation {
+		width: 33vw;
 	}
 
 	.hero {
@@ -650,7 +654,7 @@ footer {
 
 	.service-copy {
 		font-size: 1.2rem;
-		line-height: 2.1rem;
+		line-height: 1.8rem;
 	}
 
 	.client-testimonial-single {
@@ -660,6 +664,14 @@ footer {
 	.client-testimonial-text {
 		line-height: 2rem;
 		margin-bottom: 3rem;
+	}
+
+	.client-testimonial-author {
+		margin-bottom: 1rem;
+	}
+
+	.client-testimonial-author-role {
+		font-size: 1rem;
 	}
 }
 
