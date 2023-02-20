@@ -571,16 +571,31 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+	.hero {
+		min-height: 80vh;
+	}
+
+	.hero h2 {
+		font-size: 3rem;
+		padding-top: 20vh;
+	}
+
+	.hero h2::after {
+		min-height: 6rem;
+		bottom: -85%;
+	}
+
 	.feature-single .copy {
 		padding: 6rem;
 	}
 
 	.feature-single h3 {
-		font-size: 1.8rem;
+		font-size: 2.75rem;
+		line-height: 3rem;
 	}
 
 	.feature-single p {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 	.single-service {
 		padding: 3rem 10rem 2rem;
