@@ -163,38 +163,43 @@
 
 		<footer>
 			<div class="gallery">
-				<img
-					srcset="
-						./src/images/mobile/image-gallery-milkbottles.jpg  768w,
-						./src/images/desktop/image-gallery-milkbottles.jpg
-					"
-					sizes="(max-width: 768px) 768px"
-					alt=""
-				/>
-				<img
-					srcset="
-						./src/images/mobile/image-gallery-orange.jpg  768w,
-						./src/images/desktop/image-gallery-orange.jpg
-					"
-					sizes="(max-width: 768px) 768px"
-					alt=""
-				/>
-				<img
-					srcset="
-						./src/images/mobile/image-gallery-cone.jpg  768w,
-						./src/images/desktop/image-gallery-cone.jpg
-					"
-					sizes="(max-width: 768px) 768px"
-					alt=""
-				/>
-				<img
-					srcset="
-						./src/images/mobile/image-gallery-sugar-cubes.jpg  768w,
-						./src/images/desktop/image-gallery-sugar-cubes.jpg
-					"
-					sizes="(max-width: 768px) 768px"
-					alt=""
-				/>
+				<picture>
+					<source
+						srcset="./src/images/desktop/image-gallery-milkbottles.jpg"
+						media="(min-width: 768px)"
+					/>
+					<img
+						srcset="./src/images/mobile/image-gallery-milkbottles.jpg 768w"
+						alt=""
+					/>
+				</picture>
+
+				<picture>
+					<source
+						srcset="./src/images/desktop/image-gallery-orange.jpg"
+						media="(min-width: 768px)"
+					/>
+					<img srcset="./src/images/mobile/image-gallery-orange.jpg" alt="" />
+				</picture>
+
+				<picture>
+					<source
+						srcset="./src/images/desktop/image-gallery-cone.jpg"
+						media="(min-width: 768px)"
+					/>
+					<img srcset="./src/images/mobile/image-gallery-cone.jpg" alt="" />
+				</picture>
+
+				<picture>
+					<source
+						srcset="./src/images/desktop/image-gallery-sugar-cubes.jpg"
+						media="(min-width: 768px)"
+					/>
+					<img
+						srcset="./src/images/mobile/image-gallery-sugar-cubes.jpg"
+						alt=""
+					/>
+				</picture>
 			</div>
 
 			<nav class="footer-navigation">
