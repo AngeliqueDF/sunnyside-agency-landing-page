@@ -319,8 +319,12 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 }
-.gallery img {
+.gallery picture {
 	width: 50%;
+}
+
+.gallery picture img {
+	margin-top: -3px; /* TODO remove, use CSS background rules to set responsive images */
 }
 /* END GALLERY COMPONENT */
 
@@ -553,7 +557,7 @@ footer {
 	/* END TESTIMONIALS SECTION */
 
 	/* FOOTER */
-	.gallery img {
+	.gallery picture {
 		width: 25%;
 	}
 
