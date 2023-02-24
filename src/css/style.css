@@ -780,3 +780,45 @@ footer {
 		margin: auto 2rem;
 	}
 }
+
+/* HOVER COMPATIBLE DEVICES */
+@media (any-hover: hover) {
+	.contact-cta:hover {
+		background-color: rgba(255, 255, 255, 30%);
+		color: white;
+	}
+
+	.custom-link-underline:hover::after {
+		opacity: 100%;
+	}
+
+	.sitemap a:hover {
+		color: white;
+	}
+
+	.social-link:active {
+		filter: brightness(0) invert(1);
+	}
+}
+/* END HOVER COMPATIBLE DEVICES */
+
+/* TOUCH SCREENS */
+@media (hover: none) {
+	.contact-cta:active {
+		background-color: rgba(255, 255, 255, 30%);
+		color: white;
+	}
+
+	.custom-link-underline:active::after {
+		opacity: 100%;
+	}
+
+	.sitemap a:active {
+		color: white;
+	}
+
+	.social-link:active {
+		filter: brightness(0) invert(1);
+	}
+}
+/* END TOUCH SCREENS */
